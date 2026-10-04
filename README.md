@@ -35,3 +35,25 @@ One limitation is that things like noise level and whether people are studying a
 | `noise_level` | Ordered | How noisy the space is | Quiet / Medium / Loud |
 | `study_activity` | Categorical | Whether people are mostly alone, in groups, or mixed | Mostly alone |
 | `free_outlet` | Ordered | How easy it is to find an free outlet | Easy / Medium / Hard |
+
+## Task 2:
+
+So I collected 12 observations from the four study spaces. While collecting the data, I noticed that counting the exact number of occupied seats and total seats was harder than I expected, especially when the spaces were busy.
+
+So because of this, I changed to `occupancy_percentage`. As instead of counting every seat, I estimated how full the space was as a percentage. This was much easier to record and still showed how crowded each study space was.
+
+Other than that, the other attributes like for example noise level, study activity, and outlet availability worked fine, so I kept them the same.
+
+For the final data collection, I observed the four study spaces on multiple days at around 9 AM, 2 PM, and 4 PM. I ended up with 24 total observations. The full dataset is included in the csv file.
+
+### Final Data Dictionary
+
+| Attribute | Type | Description | Example |
+|---|---|---|---|
+| `date` | Temporal | Date of the observation | 2026-09-22 |
+| `location` | Categorical | Study space being observed | SCE - Pier Room |
+| `time` | Temporal | Time of the observation | 2:00 PM |
+| `occupancy_percentage` | Quantitative | Percentage of the study space that was occupied | 90% |
+| `noise_level` | Ordered | How noisy the study space was | Quiet / Medium / Loud |
+| `study_activity` | Categorical | Whether people were mostly alone, in groups, or mixed | Mixed |
+| `outlet_availability` | Ordered | How easy it was to find an available outlet | Easy / Medium / Hard |
