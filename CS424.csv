@@ -1,0 +1,25 @@
+date,location,time,occupancy_percentage,noise_level,study_activity,outlet_availability
+2026-09-22,SCE - Pier Room,9:00 AM,40,Medium,Mixed,Medium
+2026-09-22,SCE - Pier Room,2:00 PM,100,Loud,Mixed,Hard
+2026-09-22,SCE - Pier Room,4:00 PM,60,Medium,Mixed,Medium
+2026-09-24,SCE - Inner Circle,9:00 AM,40,Loud,Mixed,Medium
+2026-09-24,SCE - Inner Circle,2:00 PM,95,Loud,Mostly Groups,Hard
+2026-09-24,SCE - Inner Circle,4:00 PM,65,Medium,Mixed,Medium
+2026-09-25,Library - 1st Floor,9:00 AM,40,Medium,Mostly Alone,Easy
+2026-09-25,Library - 1st Floor,2:00 PM,90,Loud,Mixed,Hard
+2026-09-25,Library - 1st Floor,4:00 PM,70,Medium,Mostly Alone,Medium
+2026-09-25,Library - 2nd Floor,9:00 AM,50,Loud,Mostly Groups,Medium
+2026-09-25,Library - 2nd Floor,2:00 PM,90,Loud,Mostly Groups,Hard
+2026-09-25,Library - 2nd Floor,4:00 PM,70,Loud,Mostly Groups,Hard
+2026-09-28,SCE - Pier Room,9:00 AM,25,Quiet,Mostly Alone,Easy
+2026-09-28,SCE - Pier Room,2:00 PM,100,Loud,Mixed,Hard
+2026-09-28,SCE - Pier Room,4:00 PM,40,Medium,Mostly Groups,Medium
+2026-09-30,SCE - Inner Circle,9:00 AM,25,Medium,Mostly Groups,Medium
+2026-09-30,SCE - Inner Circle,2:00 PM,95,Loud,Mostly Groups,Hard
+2026-09-30,SCE - Inner Circle,4:00 PM,45,Medium,Mostly Alone,Medium
+2026-10-01,Library - 1st Floor,9:00 AM,20,Medium,Mostly Alone,Easy
+2026-10-01,Library - 1st Floor,2:00 PM,90,Loud,Mixed,Hard
+2026-10-01,Library - 1st Floor,4:00 PM,60,Medium,Mostly Alone,Medium
+2026-10-01,Library - 2nd Floor,9:00 AM,25,Loud,Mostly Groups,Easy
+2026-10-01,Library - 2nd Floor,2:00 PM,90,Loud,Mostly Groups,Hard
+2026-10-01,Library - 2nd Floor,4:00 PM,85,Loud,Mostly Groups,Hard
