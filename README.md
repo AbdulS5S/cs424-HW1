@@ -140,10 +140,14 @@ So these three sketches are different from each other as we can see because one 
 
 In my first refined sketch, I improved my first sketch by separating each study area into its own smaller graph. As we can see this made it easier to read because the lines are not overlapping anymore. Additionally, I also added the noise level next to each point using Q for Quiet, M for Medium, and L for Loud. So this helps answer both my question about how crowded each place gets and whether more crowded places are also louder. Also i think this version works better than my first sketch because it shows more information without making the graph too hard to read.
 
+The main marks I used were points and lines. Position shows the time and occupancy percentage, while the letters next to the points show the noise level.
+
 ### Refined Sketch 2: Outlet Availability and Occupancy
 ![Refined Sketch 2](image5.jpeg)
 
 So lastly for my second refined sketch, I improved my outlet availability sketch by also adding the average occupancy percentage in each box. Before this my sketch only showed if outlets were Easy, Medium, or Hard to find. Now its better as it also shows how crowded the place was at the same time. This makes it easier to compare outlet availability with occupancy and see if outlets are harder to find when a place is more crowded. So I think this version is better because it connects two parts of the data instead of only showing one.
+
+So the grid uses position to show the location and time. The letters show outlet availability, and the numbers show the occupancy percentage.
 
 ## Task 6:
 
