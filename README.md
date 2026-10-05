@@ -58,9 +58,9 @@ For the final data collection, I observed the four study spaces on multiple days
 | `study_activity` | Categorical | Whether people were mostly alone, in groups, or mixed | Mixed |
 | `outlet_availability` | Ordered | How easy it was to find an available outlet | Easy / Medium / Hard |
 
-## Task 3: Data Description and Domain Questions
+## Task 3:
 
-My final dataset has 24 data observations, which represent four study spaces at UIC: SCE Pier Room, SCE Inner Circle, Library 1st Floor, and Library 2nd Floor. These were observed at around 9 AM, 2 PM, and 4 PM on different days and weeks. So In this dataset, I kept the information about the location, the time of observation, percentage of occupied seats, noise level, study activity, and outlet availability.
+My final dataset has 24 data observations, which represent four study spaces at UIC: SCE Pier Room, SCE Inner Circle, Library 1st Floor, and Library 2nd Floor. These were observed at around 9 AM, 2 PM, and 4 PM on different days and weeks. So I collected all of the data by visiting each area myself in person at the times listed and recorded what I saw and observed. In this dataset, I kept the information about the location, the time of observation, percentage of occupied seats, noise level, study activity, and outlet availability.
 
 The data shows how the study spaces change depending on the place and time of day. One limitation is that I only observed each place on a few days, so it might not show what the spaces are like every day. Some of the data was also based on my own judgment. For example, the occupancy percentage was estimated, and sometimes noise level or outlet availability for example could be between two values.
 
@@ -69,15 +69,49 @@ When turning my observations into data, I also lost some details. For example I 
 ### Domain Questions
 
 1. **Which study spaces are the most crowded, and how does that change during the day?**  
-   I can use `location`, `time`, and `occupancy_percentage` to compare how busy each place gets.
+   So i wanted to look at this because it can help students and me know which places might be easier to find a seat in at different times. So I can use `location`, `time`, and `occupancy_percentage` to compare how busy each place gets.
 
 2. **Are more crowded study spaces usually louder?**  
-   I can compare `occupancy_percentage` and `noise_level` to see if there is a pattern.
+   I thought this would be useful because some students may prefer quieter places when they are studying. Also i can compare `occupancy_percentage` and `noise_level` to see if more crowded places are usually louder.
 
 3. **Which places are used more for group study and which are used more for studying alone?**  
-   I can use `location` and `study_activity` to compare the different spaces.
+   So i wanted to see if some spaces are used more for group work while others are better for people studying alone. I can use `location` and `study_activity` to compare how each place is normally used.
 
 4. **When and where are outlets harder to find?**  
-   I can compare `outlet_availability`, `location`, `time`, and `occupancy_percentage` to see if outlets are harder to find when a place gets busy.
-
+   I wanted to look at this because students may need outlets to charge their laptops or phones while studying. So i can compare `outlet_availability`, `location`, `time`, and `occupancy_percentage` to see where and when outlets are harder to find.
+   
 These questions are pretty similar to my original questions, but I changed them a little based on the data I actually collected. Since i changed from exact seat counts to occupancy percentage, i mostly focused more on how crowded the spaces were instead of the exact number of available seats.
+
+## Task 4:
+
+So for this task, I changed the four questions from Task 3 into more like general tasks. The main idea is to explain what someone is trying to do with the data instead of deciding what graph to use.
+
+### 1. Which study spaces are the most crowded, and how does that change during the day?
+
+**Action:** Compare  
+**Target:** Occupancy across different locations and times
+
+So the goal is to compare how crowded each study space is and how that changes at different times of the day.
+
+### 2. Are more crowded study spaces usually louder?
+
+**Action:** Compare  
+**Target:** Occupancy percentage and noise level
+
+Again the goal is to compare crowding and noise to see if more crowded places are usually louder.
+
+### 3. Which places are used more for group study and which are used more for studying alone?
+
+**Action:** Compare and summarize  
+**Target:** Study activity across different locations
+
+The goal is to compare the study activity in each place and see which spaces are used more by groups, people studying alone, or a mix of both.
+
+### 4. When and where are outlets harder to find?
+
+**Action:** Identify and compare  
+**Target:** Outlet availability across locations, times, and occupancy levels
+
+So the main goal is to find which places and times have harder outlet availability and compare that with how crowded the space is.
+
+So doing these task abstractions helped me think more about what someone actually needs to find from the data. Instead of thinking about a certain graph right away, like for example i can first maybe think about what needs to be compared, identified, or summarized and so on.
