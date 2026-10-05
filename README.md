@@ -115,3 +115,22 @@ The goal is to compare the study activity in each place and see which spaces are
 So the main goal is to find which places and times have harder outlet availability and compare that with how crowded the space is.
 
 So doing these task abstractions helped me think more about what someone actually needs to find from the data. Instead of thinking about a certain graph right away, like for example i can first maybe think about what needs to be compared, identified, or summarized and so on.
+
+## Task 5:
+
+### Initial Sketch 1: Average Occupancy Over Time
+![Initial Sketch 1](image1.jpeg)
+
+So for my first sketch i used a line graph to show how the average occupancy changes at different times of the day. This connects to my question about which study spaces are more crowded and when they get busy. As you can see I used time, location, and occupancy_percentage. The x-axis shows the time and the y-axis shows the average occupancy percentage. Additionally, each line shows a different study area. Also i think this works well because it makes it easy to see that the study spaces get much more crowded and busy around 2 PM. Other than that, one problem is that some of the lines are really close together, so they can be a little hard to tell apart.
+
+### Initial Sketch 2: Study Activity by Location
+![Initial Sketch 2](image2.jpeg)
+
+For my second sketch, I compare how people were studying in each location. So this connects to my question about which places are used more for group study and which are used more for studying alone. For this i used location and study_activity. As we can see each bar represents one study space, and each part of the bar shows Mostly Alone, Mixed, or Mostly Groups. I think this works well because it is easy to compare the study activity between the different places. One weakness i found is that it does not show what time of day the activity took place.
+
+### Initial Sketch 3: Outlet Availability by Location and Time
+![Initial Sketch 3](image3.jpeg)
+
+Lastly for my third sketch, I tried to show outlet availability at each study area and time. So this connects to my question about when and where outlets are harder to find. The attributes i used include location, time, and outlet_availability. The rows show the different study spaces and the columns show the times. I used E for Easy, M for Medium, and H for Hard to make it easy to understand. Also i think this works well because it is easy to compare outlet availability between different places and times. One weakness is that it does not show how crowded the place was at the same time.
+
+So these three sketches are different from each other as we can see because one focuses on change over time, one compares study activity, and one compares outlet availability.
