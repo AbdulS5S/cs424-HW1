@@ -165,3 +165,17 @@ I mostly kept all my work together in a folder on my local computer as I worked 
 # Assignment 2: Exploring and Building Visualizations
 
 ## Task 1:
+
+So for this Assignment 2 I went back and looked at the data I collected for Assignment 1. I have 24 observations from four study spaces: SCE Pier Room, SCE Inner Circle, Library 1st Floor, and Library 2nd Floor. I collected the data at around 9 AM, 2 PM, and 4 PM.
+
+So after looking through the data again, I did not really see any missing values or anything that looked completely wrong or weird. The names of the locations, times, noise levels, study activity, and outlet availability all seemed consistent.
+
+But one problem with my data i did realize is that I only observed each place on two different days and the locations were not all observed on the same dates. So some of the differences between the places could also be because of the day I went there. Also other than that things like occupancy percentage and noise level were mostly based on what I saw or heard so they are more like estimates and not exact measurements.
+
+For this assignment, I decided to mainly focus on these questions:
+
+1. How does occupancy change across different study spaces and times of day?
+2. Are more crowded study spaces usually louder?
+3. When and where are outlets harder to find, and does that relate to how crowded the space is?
+
+These are pretty similar to the questions I had before, but I decided to focus on the ones that I think work better with the data I actually collected and will be easier to compare using visualizations.
