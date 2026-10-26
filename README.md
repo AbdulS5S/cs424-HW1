@@ -211,3 +211,41 @@ The third graph looks at outlet availability for each location and time.
 From this graph I saw that outlets were rated Hard to find at 2 PM for every location. This was also the time where occupancy was the highest. At 9 AM outlets were usually easier to find. At 4 PM most locations were around Medium, but the Library 2nd Floor was still Hard as we can see from the plot.
 
 Overall these graphs made me want to keep focusing on occupancy, noise, and outlet availability. The data seems to show that the busiest times are also usually louder and have outlets that are harder to find. At the same time as I only collected a small number of observations so I would not treat these as strong conclusions as of now.
+
+## Task 4:
+
+For this task I tried three different visualization ideas. Some of them are based on the sketches I made in Assignment 1, but I also changed some stuff after looking at the data more.
+
+### 1: Occupancy over time
+
+![Direction 1](task4_p1.png)
+
+So for the first one I made a line graph for occupancy over time. Each line is one location and it shows the average occupancy at 9 AM, 2 PM, and 4 PM.
+
+I think this one worked pretty well because it is easy to see when each place gets more crowded and also compare the different locations. One thing that is not perfect is that some of the lines get close to each other, so it can be a little confusing in some places.
+
+### 2: Occupancy and noise
+
+![Direction 2](task4_p2.png)
+
+So for the second one I used a scatter plot to compare occupancy and noise level. The x axis is occupancy and the y axis is the noise level.
+
+I tried this because in Task 3 I noticed that the more crowded observations also seemed to be louder. This graph makes that easier to see.
+
+One problem is that some points overlap because some observations have the same occupancy and noise level. So not every single observation can be seen separately, but I still think the graph works for showing the main pattern.
+
+### 3: Outlet availability
+
+So finally for the third one I first tried making the outlet grid idea from Assignment 1.
+
+![Failed Outlet Grid](fail.png)
+
+So at first I wanted the grid to show outlet availability and occupancy together but when I actually made it, it looked kind of messy and the text was really hard to read.
+
+So instead of trying to force that one to work I basically decided to use the outlet bar graph.
+
+![Direction 3](task3_outlets.png)
+
+I think this one is easier to understand because you can compare the locations and times without having too much information inside each part of the graph.
+
+Overall I think 1 and 2 worked better. 3 also helped me see that something that looked fine as a sketch can get harder to read once the real data is actually added.
