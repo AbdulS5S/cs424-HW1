@@ -274,6 +274,25 @@ I did this because the lines were getting close to each other and it was kind of
 
 For the second iteration I noticed that the four graphs were using different scales, so comparing them was a little weird.
 
-So I changed all of them to use the same scale and also added the actual occupancy percent next to each point.
+So I changed all of them to use the same scale and also added the actual occupancy percent next to each point. I think this made it easier to compare the locations and also easier to see the exact values.
 
-I think this made it easier to compare the locations and also easier to see the exact values.
+## Task 7:
+
+So for my current design I would continue with the second iteration from Task 6.
+
+![Current Design](task6_it2.png)
+
+So this graph helps compare how occupancy changes between the different locations and times. I think this version works the best because the locations are easier to read and compare, and the actual occupancy values are shown as well. Also compared to my Assignment 1 sketch and the earlier version, I split the locations into separate graphs and made them all use the same scale. I am still not completely sure if separate graphs are the best way to compare the locations, so that is something I would want to test in Assignment 3.
+
+## Running the Code
+
+Make sure Python, pandas, and matplotlib are installed.
+
+Prepare the data:
+python3 prep_data.py
+
+Run the exploratory graphs:
+python3 explore_data.py
+
+Run the main visualizations:
+python3 visualizations.py
