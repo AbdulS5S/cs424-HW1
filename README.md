@@ -255,3 +255,25 @@ Overall I think 1 and 2 worked better. 3 also helped me see that something that 
 So I basically decided to keep the visualizations static and not add any interaction. Since my dataset is small and only has 24 observations I don't think things like filtering, zooming, or selecting points would really help that much.
 
 The different graphs already let me compare occupancy over time, occupancy with noise, and outlet availability. So for now I think keeping them simple works better than adding interaction just for the sake of having it.
+
+## Task 6:
+
+So for this task I decided to keep working with the occupancy over time graph because I thought that one worked the best from Task 4.
+
+### Iteration 1
+
+![Iteration 1](task6_it1.png)
+
+So for the first iteration I split the graph into four smaller graphs instead of having all four locations on the same one.
+
+I did this because the lines were getting close to each other and it was kind of hard to tell them apart sometimes. I think having one graph for each location made it easier to read and much more clearer.
+
+### Iteration 2
+
+![Iteration 2](task6_it2.png)
+
+For the second iteration I noticed that the four graphs were using different scales, so comparing them was a little weird.
+
+So I changed all of them to use the same scale and also added the actual occupancy percent next to each point.
+
+I think this made it easier to compare the locations and also easier to see the exact values.
