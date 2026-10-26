@@ -50,4 +50,65 @@ plt.title("Occupancy and Noise Level")
 plt.yticks([1, 2, 3], ["Quiet", "Medium", "Loud"])
 
 plt.savefig("task4_p2.png")
+
+plt.figure(figsize=(9, 7))
+
+plt.subplot(2, 2, 1)
+plt.plot(times, [pier_9, pier_2, pier_4], marker="o")
+plt.title("Pier Room")
+
+plt.subplot(2, 2, 2)
+plt.plot(times, [inner_9, inner_2, inner_4], marker="o")
+plt.title("Inner Circle")
+
+plt.subplot(2, 2, 3)
+plt.plot(times, [lib1_9, lib1_2, lib1_4], marker="o")
+plt.title("Library 1st Floor")
+
+plt.subplot(2, 2, 4)
+plt.plot(times, [lib2_9, lib2_2, lib2_4], marker="o")
+plt.title("Library 2nd Floor")
+
+plt.tight_layout()
+
+plt.savefig("task6_it1.png")
+
+plt.figure(figsize=(9, 7))
+
+plt.subplot(2, 2, 1)
+plt.plot(times, [pier_9, pier_2, pier_4], marker="o")
+plt.title("Pier Room")
+plt.ylim(0, 110)
+plt.text(0, pier_9 + 2, str(round(pier_9, 1)) + "%")
+plt.text(1, pier_2 + 2, str(round(pier_2, 1)) + "%")
+plt.text(2, pier_4 + 2, str(round(pier_4, 1)) + "%")
+
+plt.subplot(2, 2, 2)
+plt.plot(times, [inner_9, inner_2, inner_4], marker="o")
+plt.title("Inner Circle")
+plt.ylim(0, 110)
+plt.text(0, inner_9 + 2, str(round(inner_9, 1)) + "%")
+plt.text(1, inner_2 + 2, str(round(inner_2, 1)) + "%")
+plt.text(2, inner_4 + 2, str(round(inner_4, 1)) + "%")
+
+plt.subplot(2, 2, 3)
+plt.plot(times, [lib1_9, lib1_2, lib1_4], marker="o")
+plt.title("Library 1st Floor")
+plt.ylim(0, 110)
+plt.text(0, lib1_9 + 2, str(round(lib1_9, 1)) + "%")
+plt.text(1, lib1_2 + 2, str(round(lib1_2, 1)) + "%")
+plt.text(2, lib1_4 + 2, str(round(lib1_4, 1)) + "%")
+
+plt.subplot(2, 2, 4)
+plt.plot(times, [lib2_9, lib2_2, lib2_4], marker="o")
+plt.title("Library 2nd Floor")
+plt.ylim(0, 110)
+plt.text(0, lib2_9 + 2, str(round(lib2_9, 1)) + "%")
+plt.text(1, lib2_2 + 2, str(round(lib2_2, 1)) + "%")
+plt.text(2, lib2_4 + 2, str(round(lib2_4, 1)) + "%")
+
+plt.tight_layout()
+
+plt.savefig("task6_it2.png")
+
 plt.show()
