@@ -249,3 +249,9 @@ So instead of trying to force that one to work I basically decided to use the ou
 I think this one is easier to understand because you can compare the locations and times without having too much information inside each part of the graph.
 
 Overall I think 1 and 2 worked better. 3 also helped me see that something that looked fine as a sketch can get harder to read once the real data is actually added.
+
+## Task 5:
+
+So I basically decided to keep the visualizations static and not add any interaction. Since my dataset is small and only has 24 observations I don't think things like filtering, zooming, or selecting points would really help that much.
+
+The different graphs already let me compare occupancy over time, occupancy with noise, and outlet availability. So for now I think keeping them simple works better than adding interaction just for the sake of having it.
