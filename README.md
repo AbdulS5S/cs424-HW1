@@ -179,3 +179,13 @@ For this assignment, I decided to mainly focus on these questions:
 3. When and where are outlets harder to find, and does that relate to how crowded the space is?
 
 These are pretty similar to the questions I had before, but I decided to focus on the ones that I think work better with the data I actually collected and will be easier to compare using visualizations.
+
+## Task 2:
+
+So for this task what i did was that I used Python and Pandas to prepare the data for the visualizations. I started with the original CS424.csv file from Assignment 1.
+
+I first checked the data for missing values and duplicate rows. I did not find any major problems. After that, I made sure the date column was treated as a date and occupancy_percentage was treated as a number.
+
+Additionally, I also added a few new columns to make some of the data easier to use later. For example like I added time_order so the times can stay in the order 9 AM, 2 PM, and 4 PM. I also added noise_score where Quiet = 1, Medium = 2, and Loud = 3, and outlet_score where Easy = 1, Medium = 2, and Hard = 3.
+
+Lastly I made it so the processed data was then saved as a new CSV file.
