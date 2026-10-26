@@ -189,3 +189,25 @@ I first checked the data for missing values and duplicate rows. I did not find a
 Additionally, I also added a few new columns to make some of the data easier to use later. For example like I added time_order so the times can stay in the order 9 AM, 2 PM, and 4 PM. I also added noise_score where Quiet = 1, Medium = 2, and Loud = 3, and outlet_score where Easy = 1, Medium = 2, and Hard = 3.
 
 Lastly I made it so the processed data was then saved as a new CSV file.
+
+## Task 3:
+
+So for this task I made a few simple graphs to explore the data more and see what patterns I could find before making the main visualizations. The first graph looks at the average occupancy at each time of day.
+
+![Average Occupancy by Time](task3_occupancy.png)
+
+So from this graph I noticed that 2 PM was by far the most crowded time. The average occupancy was like around 94%, while 9 AM was only around 33%. 4 PM was somewhere in the middle at around 62%. So all this made it pretty clear that time of day has a big effect on how crowded the study spaces were in my data.
+
+The second graph looks at average occupancy for each noise level.
+
+![Average Occupancy by Noise Level](task3_noise.png)
+
+This graph showed that the observations marked as Loud usually had much higher occupancy than the observations marked Medium or Quiet. The Loud observations had an average occupancy of around 78%, compared to Medium which had lower around 47%. So one problem with this comparison that i found was that I only had one observation marked Quiet, so that part of the graph is not really enough data to make a strong conclusion.
+
+The third graph looks at outlet availability for each location and time.
+
+![Outlet Availability by Location and Time](task3_outlets.png)
+
+From this graph I saw that outlets were rated Hard to find at 2 PM for every location. This was also the time where occupancy was the highest. At 9 AM outlets were usually easier to find. At 4 PM most locations were around Medium, but the Library 2nd Floor was still Hard as we can see from the plot.
+
+Overall these graphs made me want to keep focusing on occupancy, noise, and outlet availability. The data seems to show that the busiest times are also usually louder and have outlets that are harder to find. At the same time as I only collected a small number of observations so I would not treat these as strong conclusions as of now.
