@@ -1,5 +1,6 @@
-# cs424-HW1
-Collecting data and sketching visualizations
+# CS424 Assignments
+
+# Assignment 1: Collecting Data and Sketching Visualizations
 
 ## Task 1
 
@@ -160,3 +161,7 @@ So i worked on this assignment by myself, I handled and worked on all parts of t
 So as I was the only person collecting the data, I tried to keep the process mostly consistent by using the same categories for noise level, study activity, and outlet availability each time. One challenge I had was estimating things like occupancy and noise level, because they were not always exact. The pilot helped me notice some of these problems and so i made some changes before finishing the full dataset.
 
 I mostly kept all my work together in a folder on my local computer as I worked on the assignment. Additionally, working alone made it easier to keep the data collection consistent, but I also did not have another person to compare my observations or visualization ideas with. But overall, doing the project by myself made me think more carefully about each decision I made during both the data collection and visualization process.
+
+# Assignment 2: Exploring and Building Visualizations
+
+## Task 1:
