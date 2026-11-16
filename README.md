@@ -344,3 +344,17 @@ So for each question I will record whether the answer was correct and how many s
 Additionally, five people will start with the static version and five will start with the interactive version. Other than that, I will also switch Set A and Set B between the two versions. Also before the main test I will try it with one pilot person first. 
 
 Moreover, for the evaluation I made two question sets. Set A had Comparison Task 1A and Comparison Task 2A. Set B had Comparison Task 1B and Comparison Task 2B. I switched the sets between the static and interactive versions for different participants.
+
+## Task 3:
+
+So for this task I first tested the evaluation with one pilot participant. They understood the questions and were able to use the checkboxes without any problem. For the main evaluation I used 10 participants. Each participant completed two questions with the static version and two questions with the interactive version. Also five of the participants started with the static version and rest five started with the interactive version. So for each question I recorded the completion time in seconds and whether the answer was correct. All participants answered the questions correctly. The results are in the file assignment3_evaluation_data.csv.
+
+To better understand the file:
+The columns are:
+- participant_id: participant number
+- order: completed first or second
+- condition: static or interactive version
+- question_set: Set A or Set B
+- task: task 1 or task 2
+- accuracy: 1 basically means correct and 0 means incorrect
+- time_seconds: completion time in seconds
