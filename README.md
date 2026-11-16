@@ -358,3 +358,17 @@ The columns are:
 - task: task 1 or task 2
 - accuracy: 1 basically means correct and 0 means incorrect
 - time_seconds: completion time in seconds
+
+## Task 4:
+
+So for the results both the static and interactive versions had 100% accuracy so no difference there.
+
+![Accuracy Comparison](task4_accuracy.png)
+
+The actual difference was the time. The static version had an average time of 15.45 seconds while the interactive version had an average time of 9.95 seconds. The median time was also lower for the interactive version being 10 seconds compared to 15 seconds for the static version.
+
+![Completion Time Comparison](task4_time.png)
+
+Additionally, Task 1 the static version had an average time of 17.0 seconds and the interactive version had 11.2 seconds. For Task 2 the static version had 13.9 seconds and the interactive version had 8.7 seconds. Other than that, all 10 of the participants had a lower average time with the interactive version. A few participants also said that the static version showed lines they did not need for the question. They said as some of the lines were close together it sometimes made it harder to focus on the two locations they were trying to compare.
+
+Overall, the results support my hypothesis because people answered the questions faster with the interactive version. The accuracy stayed the same
