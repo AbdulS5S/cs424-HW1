@@ -372,3 +372,13 @@ The actual difference was the time. The static version had an average time of 15
 Additionally, Task 1 the static version had an average time of 17.0 seconds and the interactive version had 11.2 seconds. For Task 2 the static version had 13.9 seconds and the interactive version had 8.7 seconds. Other than that, all 10 of the participants had a lower average time with the interactive version. A few participants also said that the static version showed lines they did not need for the question. They said as some of the lines were close together it sometimes made it harder to focus on the two locations they were trying to compare.
 
 Overall, the results support my hypothesis because people answered the questions faster with the interactive version. The accuracy stayed the same
+
+## Task 5:
+
+Lastly I think the main thing that worked well with the interactive version was being able to hide the locations that were not needed. A few people mentioned that in the static graph all four lines were shown even when the question only needed two of them. They said as some of the lines were close together it made it harder to focus on the right ones.
+
+The accuracy was 100% for both versions, which makes sense because the questions were not very difficult. The bigger difference was the time. What surprised me more was that all 10 participants had a lower average time with the interactive version. I think the interactive version worked well for the questions I used because they only asked users to compare two locations at a time. This does not mean the interactive version would always be better as it would depend alot on the question. If someone wanted to look at all four locations together or compare the overall pattern the static version could still be useful.
+
+Lastly if I changed the visualization I would probably make the location selection a little easier and make the selected lines stand out more so the user can focus on them faster.
+
+There are also some limitations with my evaluation. Like for example, I only tested 10 participants so the results are based on a small group. The questions were also fairly simple, which is probably why everyone got them correct.
