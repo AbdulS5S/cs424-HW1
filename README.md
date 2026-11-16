@@ -382,3 +382,13 @@ The accuracy was 100% for both versions, which makes sense because the questions
 Lastly if I changed the visualization I would probably make the location selection a little easier and make the selected lines stand out more so the user can focus on them faster.
 
 There are also some limitations with my evaluation. Like for example, I only tested 10 participants so the results are based on a small group. The questions were also fairly simple, which is probably why everyone got them correct.
+
+## Running the Code
+
+First run: python3 prep_data.py
+
+To create the static visualizations: python3 visualizations.py
+
+To run the interactive visualization: python3 interactive.py
+
+To run the analysis and create the result graphs: python3 analysis.py
