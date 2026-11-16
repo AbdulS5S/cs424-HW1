@@ -296,3 +296,19 @@ python3 explore_data.py
 
 Run the main visualizations:
 python3 visualizations.py
+
+# Assignment 3: Interaction and Evaluation
+
+## Task 1:
+
+So for this task I decided to use the occupancy over time visualization from Assignment 2.
+
+For the static version I used the same graph with all four locations shown at the same time.
+
+![Static Version](task4_p1.png)
+
+As for the interactive version I kept the same data and graph but for this one I also added checkboxes so the user can turn different locations on and off.
+
+![Interactive Version](interactive.png)
+
+I added this because when all four lines are shown together some of them get close to each other and can be a little hard to compare. But with the checkboxes someone can hide locations they are not interested in and focus on the ones they want to compare.
