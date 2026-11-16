@@ -341,4 +341,6 @@ Correct answer is: Library 2nd Floor
 
 So for each question I will record whether the answer was correct and how many seconds it took.
 
-Additionally, five people will start with the static version and five will start with the interactive version. Other than that, I will also switch Set A and Set B between the two versions. Also before the main test I will try it with one pilot person first.
+Additionally, five people will start with the static version and five will start with the interactive version. Other than that, I will also switch Set A and Set B between the two versions. Also before the main test I will try it with one pilot person first. 
+
+Moreover, for the evaluation I made two question sets. Set A had Comparison Task 1A and Comparison Task 2A. Set B had Comparison Task 1B and Comparison Task 2B. I switched the sets between the static and interactive versions for different participants.
