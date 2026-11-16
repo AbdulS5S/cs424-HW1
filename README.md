@@ -312,3 +312,33 @@ As for the interactive version I kept the same data and graph but for this one I
 ![Interactive Version](interactive.png)
 
 I added this because when all four lines are shown together some of them get close to each other and can be a little hard to compare. But with the checkboxes someone can hide locations they are not interested in and focus on the ones they want to compare.
+
+## Task 2:
+
+So the evaluation question is: Does being able to hide locations help people compare the occupancy data faster?
+
+My hypothesis is: I think people will probably answer faster with the interactive version because they can hide the locations they do not need.
+
+### Comp 1
+
+A. Between Pier Room and Inner Circle which had the bigger increase in occupancy from 9 AM to 2 PM?
+
+Correct answer is: Pier Room
+
+B. Between Library 1st Floor and Library 2nd Floor which had the bigger increase in occupancy from 9 AM to 4 PM?
+
+Correct answer is: Library 2nd Floor
+
+### Comp 2
+
+A. Between Pier Room and Library 1st Floor which had the higher average occupancy across 9 AM and 4 PM?
+
+Correct answer is: Library 1st Floor
+
+B. Between Library 1st Floor and Library 2nd Floor which had the higher average occupancy across 2 PM and 4 PM?
+
+Correct answer is: Library 2nd Floor
+
+So for each question I will record whether the answer was correct and how many seconds it took.
+
+Additionally, five people will start with the static version and five will start with the interactive version. Other than that, I will also switch Set A and Set B between the two versions. Also before the main test I will try it with one pilot person first.
